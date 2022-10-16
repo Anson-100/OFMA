@@ -8,6 +8,12 @@
 body {
     margin: 0;
     padding: 0;
+    /*responsive background image stuff*/
+    background-image: url("C:/Users/anson/Desktop/PROJECTS/OFMA/OFMA/gym-new stuff.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .navbar {
@@ -64,7 +70,7 @@ body {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 /*code will run when screen shrinks to the specified size or less
