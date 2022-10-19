@@ -1,4 +1,5 @@
 
+
 * {
     /*accounts for border or padding values when you specify an element's width and height*/
     box-sizing: border-box;
@@ -109,16 +110,19 @@ in order to get the menu to appear and reappear when the screen size changes, we
         display: flex;
     }
 }
-
-/*2: hero section*/
-.hero {
-    color: white;
-    background-color: rgba(128, 0, 0, 0.2);
-    margin-top: 5em;
-}
-
-#hero-header {
-    color: white;
-    font-size: 3em;
+/*other stuff*/
+.mapouter {
+    position: relative;
     text-align: center;
+    height: 350px;
+    width: 350px;
 }
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none;
+    height: 350px;
+    width: 350px;
+}
+
+/* <style>.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:350px;}</style> */
