@@ -144,7 +144,26 @@ footer {
     text-align: center;
     color: white;
     background-color: rgb(0, 0, 0, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
 }
+
+.footer-right {
+    color: black;
+}
+
+@media (max-width: 651px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-right {
+        display: none;
+    }
+}
+
 /*images*/
 .action {
     background-color: white;
@@ -167,5 +186,12 @@ footer {
 
 .homepage {
     max-width: 450px;
+}
+
+@media (max-width: 653px) {
+    .homepage-img {
+        flex-direction: column;
+
+    }
 }
 
