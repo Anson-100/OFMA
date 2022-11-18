@@ -38,6 +38,11 @@ body {
     margin: .5rem;
 }
 
+.OFMA {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
 .navbar-links {
     height: 100%;
 }
@@ -121,6 +126,16 @@ in order to get the menu to appear and reappear when the screen size changes, we
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .gym-name {
+        display: none;
+    }
+}
+
+@media(min-width: 652px) {
+    .OFMA {
+        display: none;
     }
 }
 
